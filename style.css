@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+
+/* Перший фрейм */
+.frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    background: #D0DEEB;
+}
+
+.card{
+    width: 334px;
+    height: 270px;
+}
+.bg-card{
+    background: #fff;
+    border-radius: 10px;
+    width: 334px;
+    height: 224px;
+    margin-top: 47px;
+}
+
+.circle-bg{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: #25FFAE;
+    border-radius: 100px;
+    left: 153px;
+    top: 15px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94px; 
+    height: 94px;
+    border-radius: 100px;
+    background: #13C39C;
+}
+.check-mark{
+    width: 60px;
+    height: 60px;
+}
+
+.text-gg{
+    position: absolute;
+font-size: 24px;
+color: #7C8691;
+top: 132px;
+left: 160px;
+}
+.text-resault{
+    position: absolute;
+    text-align: center;
+    color: #7C8691;
+    font-size: 20px;
+    top: 176px;
+    left: 98px;
+}
+
+.button-w{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: #13C39C;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 10px 49px;
+    left: 209px;
+    top: 240px;
+}
+.button-l{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    color: #9BA9B9;
+    background: #D0DEEB;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 10px 49px;
+    top: 240px;
+    left: 51px;
+}
